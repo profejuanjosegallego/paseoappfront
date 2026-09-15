@@ -3,6 +3,9 @@ import RegistroUsuario from './paginas/RegistroUsuario'
 import Home from './paginas/Home'
 import RegistroEspacio from './paginas/RegistroEspacio'
 import RegistroReserva from './paginas/RegistroReserva'
+import {ListaEspacios} from './paginas/ListaEspacios'
+import {ListaUsuarios} from './paginas/ListaUsuarios'
+import {ListaReservas} from './paginas/ListaReservas'
 
 function App() {
   return (
@@ -12,7 +15,10 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/espacios" element={<RegistroEspacio />} />
         <Route path="/reservas" element={<RegistroReserva />} />
-      </Routes>
+        <Route path="/ListaEspacios" element={<ListaEspacios />} />
+        <Route path="/usuarios" element={<ListaUsuarios />} />
+        <Route path="/lista-reservas" element={<ListaReservas />} />
+        </Routes>
     </BrowserRouter>
   )
 }
