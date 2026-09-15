@@ -1,24 +1,24 @@
 import {espacios} from '../services/datosEspacios.js'
 import {TarjetaEspacio} from '../componentes/TarjetaEspacio.jsx'
 
-export function ListaEspacios(){
+export function ListaEspacios() {
 
-    return(
+    return (
 
-        <>
-            <section className="row g-4 my-5">
+    <>        
+        <section className="row g-4">
 
-                {
-                    espacios.map((espacio)=>(
-                        <div className="col-md-4" key={espacio.id}>
-                            <TarjetaEspacio espacio={espacio}/>
-                        </div>
-                        
-                    ))
-                }
+            {
+                espacios.map((espacio) => (
+                    <div className="col-md-4" key={espacio.id}>                        
+                        <TarjetaEspacio espacio={espacio} />
+                    </div>
+                ))
+            }
 
-            </section>
-        </>
+        </section>
+     </>
+
     )
-
+    
 }

@@ -33,6 +33,41 @@ export const espacios=[
         descripcion:"Cancha para microfutbol y baloncesto",
         foto:"https://plus.unsplash.com/premium_photo-1724155541930-7cde0213dcc9?q=80&w=1148&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         aforo:25
+    },
+    {
+        id:6,
+        nombre:"Sala de Juegos",
+        descripcion:"Espacio con videojuegos y actividades recreativas",
+        foto:"https://plus.unsplash.com/premium_photo-1724155541930-7cde0213dcc9?q=80&w=1148&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        aforo:20
+    },
+    {
+        id:7,
+        nombre:"Zona de Lectura",
+        descripcion:"Área tranquila para leer y relajarse",
+        foto:"https://plus.unsplash.com/premium_photo-1724155541930-7cde0213dcc9?q=80&w=1148&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        aforo:15
+    },
+    {
+        id:8,
+        nombre:"Área de Picnic",
+        descripcion:"Zona con mesas y sillas para comidas al aire libre",
+        foto:"https://plus.unsplash.com/premium_photo-1724155541930-7cde0213dcc9?q=80&w=1148&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        aforo:50
+    },
+    {
+        id:9,
+        nombre:"Galería de Arte",
+        descripcion:"Espacio para exhibir obras de arte locales",
+        foto:"https://plus.unsplash.com/premium_photo-1724155541930-7cde0213dcc9?q=80&w=1148&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        aforo:30
+    },
+    {
+        id:10,
+        nombre:"Jardín Botánico",
+        descripcion:"Área con plantas nativas y zonas de descanso",
+        foto:"https://plus.unsplash.com/premium_photo-1724155541930-7cde0213dcc9?q=80&w=1148&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        aforo:40
     }
     
 ]

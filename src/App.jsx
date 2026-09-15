@@ -3,7 +3,7 @@ import RegistroUsuario from './paginas/RegistroUsuario'
 import Home from './paginas/Home'
 import RegistroEspacio from './paginas/RegistroEspacio'
 import RegistroReserva from './paginas/RegistroReserva'
-import {ListaEspacios} from './paginas/ListaEspacios'
+import  {ListaEspacios}  from './paginas/ListaEspacios'
 
 function App() {
   return (
